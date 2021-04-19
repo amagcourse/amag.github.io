@@ -195,7 +195,7 @@
               <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+            <button type="submit" class="btn btn-primary btn-kirim" id="btnKirim" onload="">Kirim</button>
             <button class="btn btn-primary btn-loading d-none" type="button" disabled>
               <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
               Loading...
@@ -277,6 +277,7 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+  <script src="amag.js"></script>
   <!-- akhir dari... -->
 </body>
 
