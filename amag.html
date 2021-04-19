@@ -182,10 +182,10 @@
             <strong>Terimakasih!</strong> Pesan anda sudah kami terima, kami akan merespon dengan segera.
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
-          <form name="hubungikamiform">
+          <form name="hubungikamiform" id="contactform">
             <div class="mb-3">
               <label for="name" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              <input type="text" class="form-control" id="nama" aria-describedby="name" name="nama" />
             </div>
             <div class=" mb-3">
               <label for="email" class="form-label">Email</label>
@@ -196,7 +196,8 @@
               <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-kirim" id="contactBtn" disabled="disabled">Kirim</button>
+            <button type="submit" class="btn btn-primary btn-kirim" id="contactBtn" name="contactBtn"
+              disabled="disabled">Kirim</button>
             <button class="btn btn-primary btn-loading d-none" type="button" disabled>
               <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
               Loading...

@@ -6,6 +6,8 @@ const btnKirim = document.querySelector('.btn-kirim');
 const btnLoading = document.querySelector('.btn-loading');
 const myAlert = document.querySelector('.my-alert');
 
+
+
 form.addEventListener('submit', e => {
     e.preventDefault()
     // ketika tombol submit di klik
@@ -34,5 +36,13 @@ form.addEventListener('submit', e => {
 // dari google sheet akhir
 
 // tombol mati script
-
+hubungikamiform.addEventListener('input', () => {
+    if (nama.value.length > 0 &
+        email.value.length > 0 &
+        pesan.value.length > 0) {
+        contactBtn.removeAttribute('disabled');
+    } else {
+        contactBtn.setAttribute('disabled', 'disabled');
+    }
+})
 // tombol mati script akhir
