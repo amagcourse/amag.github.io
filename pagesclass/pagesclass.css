@@ -10,6 +10,10 @@
 
 }
 
+body {
+    text-align: justify;
+}
+
 #hubungikami {
     padding-top: 4rem;
 }
@@ -29,4 +33,9 @@ footer {
 
 #pilihanbahasa {
     background-color: #e7008a;
+}
+
+p {
+    padding: 2rem;
+    margin: 1rem;
 }
