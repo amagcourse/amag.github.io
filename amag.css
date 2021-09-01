@@ -1,20 +1,9 @@
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #fff241;
-}
+.servis {
+  width: 100%;
+  height: 1000px;
+  padding: 50px;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
 
-#project {
-  background-color: #fff241;
-}
-
-footer {
-  background: #0099ff;
-}
-
-section {
-  padding-top: 4rem;
-}
-
-p {
-  padding: 1rem;
 }
